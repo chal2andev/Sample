@@ -1,0 +1,7 @@
+name: Sample
+version: 1.0
+main: kr.co.chal2and.sample.pluign.SamplePlugin
+author: chal2and
+
+depend:
+  - kotlin
