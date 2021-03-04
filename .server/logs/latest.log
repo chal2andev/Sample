@@ -1,96 +1,63 @@
-[02:42:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:42:48] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[02:42:49] [Worker-Main-5/INFO]: Loaded 7 recipes
-[02:42:50] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[02:42:50] [Server thread/INFO]: Loading properties
-[02:42:50] [Server thread/INFO]: This server is running Paper version git-Paper-509 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[02:42:50] [Server thread/INFO]: Debug logging is disabled
-[02:42:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:42:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:42:50] [Server thread/INFO]: Default game type: SURVIVAL
-[02:42:50] [Server thread/INFO]: Generating keypair
-[02:42:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:42:50] [Server thread/INFO]: Using default channel type
-[02:42:50] [Server thread/ERROR]: Could not load 'plugins\Sample.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
-	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:162) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:148) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:389) ~[patched_1.16.5.jar:git-Paper-509]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:206) ~[patched_1.16.5.jar:git-Paper-509]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:941) ~[patched_1.16.5.jar:git-Paper-509]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:175) ~[patched_1.16.5.jar:git-Paper-509]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
-	... 7 more
-[02:42:50] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.2+fc3c499
-[02:42:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1a84ca77]
-[02:42:51] [Server thread/INFO]: [Kotlin] Loading Kotlin v1.4.30
-[02:42:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:42:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.2+fc3c499
-[02:42:51] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[02:42:51] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[02:42:52] [Server thread/INFO]: Preparing level "world"
-[02:42:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[02:42:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:42:53] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[02:42:53] [Server thread/INFO]: Preparing spawn area: 0%
-[02:42:53] [Server thread/INFO]: Preparing spawn area: 0%
-[02:42:53] [Server thread/INFO]: Time elapsed: 620 ms
-[02:42:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:42:53] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[02:42:53] [Server thread/INFO]: Preparing spawn area: 0%
-[02:42:53] [Server thread/INFO]: Time elapsed: 288 ms
-[02:42:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:42:53] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[02:42:53] [Server thread/INFO]: Time elapsed: 83 ms
-[02:42:53] [Server thread/INFO]: [Kotlin] Enabling Kotlin v1.4.30
-[02:42:53] [Server thread/INFO]: Running delayed init tasks
-[02:42:53] [Server thread/INFO]: Done (3.759s)! For help, type "help"
-[02:42:53] [Server thread/INFO]: Timings Reset
-[02:43:05] [User Authenticator #1/INFO]: UUID of player chal2and is 9c9f49cd-efda-4981-bae5-621c9b71b6cf
-[02:43:05] [Server thread/INFO]: chal2and joined the game
-[02:43:05] [Server thread/INFO]: chal2and[/127.0.0.1:1413] logged in with entity id 262 at ([world]156.5, 77.0, 182.5)
-[02:43:06] [Server thread/INFO]: Plugins (2): Kotlin, WorldEdit
-[02:44:35] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[02:44:35] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[02:44:35] [Server thread/INFO]: Debug logging is disabled
-[02:44:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:44:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:44:35] [Server thread/INFO]: [Kotlin] Disabling Kotlin v1.4.30
-[02:44:35] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.2+fc3c499
-[02:44:35] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[02:44:35] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[02:44:35] [Server thread/INFO]: Loaded 7 recipes
-[02:44:36] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[02:44:36] [Server thread/INFO]: Loaded 7 recipes
-[02:44:36] [Server thread/ERROR]: Could not load 'plugins\Sample.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
-	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:162) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:148) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:389) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.reload(CraftServer.java:947) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.Bukkit.reload(Bukkit.java:714) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:810) ~[patched_1.16.5.jar:git-Paper-509]
-	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:772) ~[patched_1.16.5.jar:git-Paper-509]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:411) ~[patched_1.16.5.jar:git-Paper-509]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:378) ~[patched_1.16.5.jar:git-Paper-509]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1214) ~[patched_1.16.5.jar:git-Paper-509]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1002) ~[patched_1.16.5.jar:git-Paper-509]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:175) ~[patched_1.16.5.jar:git-Paper-509]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
-	... 15 more
-[02:44:36] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.2+fc3c499
-[02:44:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7cf366d2]
-[02:44:37] [Server thread/INFO]: [Kotlin] Loading Kotlin v1.4.30
-[02:44:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:44:37] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.2+fc3c499
-[02:44:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[02:44:37] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[02:44:37] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[02:44:37] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[02:44:38] [Server thread/INFO]: [Kotlin] Enabling Kotlin v1.4.30
-[02:44:38] [Server thread/INFO]: CONSOLE: Reload complete.
-[02:44:38] [Server thread/INFO]: Timings Reset
+[03:28:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:28:26] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[03:28:26] [Worker-Main-5/INFO]: Loaded 7 recipes
+[03:28:27] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[03:28:27] [Server thread/INFO]: Loading properties
+[03:28:27] [Server thread/INFO]: This server is running Paper version git-Paper-509 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[03:28:27] [Server thread/INFO]: Debug logging is disabled
+[03:28:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:28:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:28:28] [Server thread/INFO]: Default game type: SURVIVAL
+[03:28:28] [Server thread/INFO]: Generating keypair
+[03:28:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:28:28] [Server thread/INFO]: Using default channel type
+[03:28:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.2+fc3c499
+[03:28:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2b0dcd9f]
+[03:28:29] [Server thread/INFO]: [Kotlin] Loading Kotlin v1.4.30
+[03:28:29] [Server thread/INFO]: [Sample] Loading Sample v1.0
+[03:28:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:28:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.2+fc3c499
+[03:28:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:28:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[03:28:30] [Server thread/INFO]: Preparing level "world"
+[03:28:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:28:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:28:31] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[03:28:31] [Server thread/INFO]: Preparing spawn area: 0%
+[03:28:31] [Server thread/INFO]: Time elapsed: 451 ms
+[03:28:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:28:31] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[03:28:31] [Server thread/INFO]: Preparing spawn area: 0%
+[03:28:31] [Server thread/INFO]: Time elapsed: 119 ms
+[03:28:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:28:31] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[03:28:31] [Server thread/INFO]: Preparing spawn area: 0%
+[03:28:32] [Server thread/INFO]: Preparing spawn area: 0%
+[03:28:32] [Server thread/INFO]: Time elapsed: 958 ms
+[03:28:32] [Server thread/INFO]: [Kotlin] Enabling Kotlin v1.4.30
+[03:28:32] [Server thread/INFO]: [Sample] Enabling Sample v1.0
+[03:28:32] [Server thread/INFO]: [Sample] plugin enable test
+[03:28:32] [Server thread/INFO]: Running delayed init tasks
+[03:28:32] [Server thread/INFO]: Done (4.437s)! For help, type "help"
+[03:28:32] [Server thread/INFO]: Timings Reset
+[03:31:21] [Server thread/INFO]: Stopping the server
+[03:31:21] [Server thread/INFO]: Stopping server
+[03:31:21] [Server thread/INFO]: [Sample] Disabling Sample v1.0
+[03:31:21] [Server thread/INFO]: [Sample] pluign disable test
+[03:31:21] [Server thread/INFO]: [Kotlin] Disabling Kotlin v1.4.30
+[03:31:21] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.2+fc3c499
+[03:31:21] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:31:21] [Server thread/INFO]: Saving players
+[03:31:21] [Server thread/INFO]: Saving worlds
+[03:31:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:31:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:31:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:31:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:31:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:31:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:31:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:31:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:31:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:31:23] [Server thread/INFO]: Flushing Chunk IO
+[03:31:23] [Server thread/INFO]: Closing Thread Pool
+[03:31:23] [Server thread/INFO]: Closing Server
